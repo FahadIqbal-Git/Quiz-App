@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', sans-serif;
+}
+.wrapper{
+    margin-top: -33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 66vh;
+    background-color: #6298f0;
+}
+.welcome-text{
+    width: 400px;
+}
+.welcome-form input,
+.welcome-form button{
+    display: block;
+    width: 100%;
+}
+.welcome-form input{
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid white;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.welcome-form button{
+    font-size: 22px;
+    color: #6298f0;
+    padding: 20px 0;
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+    transition: 0.5s all;
+}
+.welcome-form button:hover{
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+.welcome-form input:focus,
+.welcome-form button:focus{
+    outline: none;
+}
+
+/* Quiz Page */
+
+.wrapperQ{
+    margin-top: -33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 104.5vh;
+    background-color: #6298f0;
+}
+
+.quiz{
+    display: grid;
+    grid-template-rows: 60px auto;
+    background-color: #fff;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+.quiz-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+    z-index: 1;
+}
+.quiz-body{
+    background-color: #ecf0f5;
+    padding: 30px;
+}
+.quiz-user{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.quiz-timer{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    background-color:  #6298f0;
+    color: white;
+}
+.option-group{
+    list-style-type: none;
+    margin: 30px 0;
+}
+.option{
+    background-color: white;
+    width: 300px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+}
+.option:hover{
+    cursor: pointer;
+    border: 2px solid #6298f0;
+    color:  #6298f0;
+}
+.btn-next{
+    background-color: #6298f0;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 27px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s;
+}
+.btn-next:hover{
+    background-color: white;
+    color:  #6298f0;
+    box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.3);
+}
+
+.active{
+    background-color:  #6298f0;
+    color: white !important;
+}
+
+/* end */
+
+.fa-trophy{
+    font-size: 250px;
+    color: white;
+}
+.user_name,
+.user_score,
+.user_time{
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
